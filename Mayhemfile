@@ -1,0 +1,5 @@
+project: glyphy
+target: glyphy-validate
+
+cmds:
+  - cmd: /repo/demo/.libs/glyphy-validate @@
