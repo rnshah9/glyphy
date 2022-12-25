@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_contains_in_span
+          - mayhem/Mayhemfile_glyphy-validate
 
     steps:
       - uses: actions/checkout@v3

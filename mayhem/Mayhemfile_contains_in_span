@@ -1,0 +1,6 @@
+project: glyphy
+target: contains-in-span
+
+cmds:
+  - cmd: /fuzz_contains_in_span
+    libfuzzer: true
